@@ -56,7 +56,6 @@ jobs:
     # ./Setup do Job
     - run: ls -la
     - run: | 
-        cd ./frontend
         yarn install
         yarn test
         ls -la
